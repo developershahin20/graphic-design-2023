@@ -8,7 +8,7 @@
     "start": "node graphic.js",
     "graphicApp": "nodemon graphicApp.js",
     "graphic": "npm start --prefix ./graphic",
-    "dev": "concurrently \"npm run start\" \"npm run graphic\""
+    "dev": "concurrently \"npm run graphicApp\" \"npm run graphic\""
   },
   "keywords": [],
   "author": "Developer Shahin",
